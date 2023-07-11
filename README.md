@@ -11,3 +11,9 @@ HTTP
 
 HTML
 : hyper text markup language
+
+
+## day two notes
+
+CSS
+: cascading style sheets

@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(246, 238, 238);
+}
+
+h1 {color: red;}
+#myid {color: blue;}
+.myclass {color: green;}
+
+/* div {
+    border: black 1px solid;
+} */
+
+/* #day-1 {
+    border: black 1px solid;
+}
+
+#day-2 {
+    border: red 1px dashed;
+} */
+
+/* .day-style {
+    border: black solid 1px;
+}
+
+#requirements {
+    color: red;
+}
+
+ul li.req {
+    color: blue;
+}
+
+#att {
+    color: red;
+}
+
+.req.belt {
+    background-color: aqua;
+} */

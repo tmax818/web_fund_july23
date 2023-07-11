@@ -5,24 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webfund July 2023</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        h1 {
+            background-color: aqua;
+            color: coral;
+        }
+    </style> -->
 </head>
 
+
+
 <body>
-    <h1>Web Fundamentals</h1>
+    <h1 class="myclass" id="myid">Web Fundamentals</h1>
     <h2>July 2023</h2>
-    <div id="day-1">
+    <div id="day-1" class="day-style">
 
         <h3>Day One</h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint molestiae delectus, <em>vitae officia</em>
             facere aspernatur eveniet. Distinctio velit officiis eos ex sint quo, alias culpa voluptatibus voluptate.
             Similique, tempore dicta.</p>
 
-        <h4>Requirements</h4>
+        <h4 id="requirements">Requirements</h4>
         <!-- this is an unordered list -->
         <ul>
-            <li>belts exam</li>
-            <li>90% assignment</li>
-            <li>attendance</li>
+            <li class="req belt">belts exam</li>
+            <li class="req">90% assignment</li>
+            <li class="req" id="att">attendance</li>
         </ul>
 
         <h4>Principles</h4>
@@ -31,7 +40,7 @@
         <ol>
             <li>be present</li>
             <li>be humble</li>
-            <li>strength through struggle</li>
+            <li id="strength">strength through struggle</li>
         </ol>
         <a href="https://login.codingdojo.com/m/201/7500/53123" target="_blank" rel="noopener noreferrer">link to
             platform</a>
@@ -120,6 +129,10 @@
         </div>
 
 
+    </div>
+
+    <div id="day-2" class="day-style">
+        <a href="./about.html">about</a>
     </div>
 
 </body>
