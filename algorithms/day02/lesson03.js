@@ -2,7 +2,7 @@ function getTotal(arrayOfNumbers) {
     
     var sum = arrayOfNumbers[0];
       
-    for(var i=0; i<arrayOfNumbers.length; i++) {
+    for(var i=1; i<arrayOfNumbers.length; i++) {
       sum += arrayOfNumbers[i];
       console.log("the current sum is: " + sum); 
     }

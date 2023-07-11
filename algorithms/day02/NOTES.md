@@ -13,7 +13,7 @@ console.log(a + " hello");
 
 |variable|value|
 |---|---|
-|a|25, 12, "hello"|
+|a|25, 12, 'hello'|
 
 
 ```bash
@@ -33,10 +33,10 @@ console.log("outside of the loop " + i);
 
 |variable|value|
 |---|---|
-|i||
+|i|0,3,4,7,8,11,12|
 
 ```bash
-
+0 4 8 outside of the loop 12
 ```
 
 ## 
@@ -60,10 +60,14 @@ getTotal([1, 3, 5]);
 
 |variable|value|
 |---|---|
-|i||
-|sum||
-|arrayOfNumbers||
+|i|0,1,2,3|
+|sum|1,2,5,10|
+|arrayOfNumbers|[1,3,5]|
+|arrayOfNumbers.length|3|
 
 ```bash
-
+the current sum is: 2
+the current sum is: 5
+the current sum is: 10
+the total is: 10
 ```
