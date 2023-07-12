@@ -26,12 +26,12 @@ console.log(whatToBring);
 |variable|value|
 |---|---|
 |isSunny||
-|temperature||
-|isRaining||
-|whatToBring||
+|temperature|45|
+|isRaining|false|
+|whatToBring|"I should bring: sunglasses, a coat, and a smile!"|
 
 ```bash
-
+I should bring: sunglasses, a coat, and a smile!
 ```
 
 ## prepare for downcount
