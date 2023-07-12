@@ -1,10 +1,8 @@
 * {
     padding: 0;
     margin: 0;
-    outline: 1px red dotted;
+    /* outline: 1px red dotted; */
 }
-
-
 
 form div {
     padding: 3px;
@@ -17,6 +15,16 @@ img {
     padding: 2px 2px 0 2px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
 .nav-container {
     background-color: #333;
     color: white;
@@ -28,6 +36,17 @@ img {
 .nav-links {
     display: flex;
     gap: 10px;
+}
+
+.col-2{
+    border: 1px blue solid;
+    flex: 2;
+    margin-right: 25px;
+}
+
+.col-1{
+    border: 1px red solid;
+    flex: 1;
 }
 
   a {
