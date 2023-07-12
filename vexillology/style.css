@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    outline: red 1px dotted;
+}
+
+.red {
+    background-color: red;
+
+    padding: 20px;
+
+}
+
+.pride {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.orange {
+    background-color: orange;
+
+    padding: 20px;
+
+}

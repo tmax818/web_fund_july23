@@ -1,39 +1,44 @@
-body {
-    background-color: rgb(246, 238, 238);
+* {
+    padding: 0;
+    margin: 0;
+    /* outline: 1px red dotted; */
 }
 
-h1 {color: red;}
-#myid {color: blue;}
-.myclass {color: green;}
-
-/* div {
-    border: black 1px solid;
-} */
-
-/* #day-1 {
-    border: black 1px solid;
+h1 {
+    margin: 0 auto;
+    width: 300px;
 }
 
-#day-2 {
-    border: red 1px dashed;
-} */
-
-/* .day-style {
-    border: black solid 1px;
+form div {
+    padding: 3px;
+    border: 1px solid black;
 }
 
-#requirements {
-    color: red;
+img {
+    border: 1px black solid;
+    margin: 2px auto;
+    padding: 2px 2px 0 2px;
 }
 
-ul li.req {
-    color: blue;
+.button {
+    margin: 1px;
+    padding: 1px;
+    border-radius: 10%;
+
 }
 
-#att {
-    color: red;
+.inline-demo {
+    border: 1px red solid;
 }
 
-.req.belt {
-    background-color: aqua;
-} */
+.first {
+    display: inline-block;
+    width: 400px;
+    background-color: blue;
+}
+
+.second {
+    display: inline-block;
+    width: 400px;
+    background-color: red;
+}
