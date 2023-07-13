@@ -1,8 +1,8 @@
 var x = 5;
     
 function addToX(amount) {
-    return x + amount;
     console.log("hello there");
+    return x + amount;
 }
     
 console.log(x);
