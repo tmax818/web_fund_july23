@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 1px red dotted;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul, p, a {
+    display: flex;
+    padding-top: 20px;
+}
+
+li {
+    list-style-type: none;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #0C4B33;
+    color: white
+}
+
+.meta {
+    font-size: small;
+}
