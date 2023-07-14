@@ -1,116 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>CodeIt</title>
-  </head>
-  <body>
-    <!-- nav start -->
-    <nav class="flex">
-      <div class="flex">
-        <img src="./images/cat.svg" alt="CodeIt Cat" class="logo" />
-        <p class="logo-text">CodeIt</p>
-        <div class="form">
-          <input type="text" id="search" />
-          <button onclick="alert('Searching for ' + search.value)" class="btn-go">Go</button>
-        </div>
-      </div>
-      <div class="flex">
-        <button class="btn btn-blue">Get App</button>
-        <button class="btn btn-gold">Log In</button>
-      </div>
-    </nav>
 
-    <!-- header start -->
-    <header>
-      <div class="flex container justify-start">
-        <img src="./images/cat.svg" alt="CodeIt Cat" class="logo" />
-        <h1>c/Dojo</h1>
-        <button class="btn btn-red" onclick="hide(this)">Join</button>
-      </div>
-      <ul class="flex container justify-start menu">
-        <li><a href="#" class="active">Posts</a></li>
-        <li><a href="#">Wiki</a></li>
-        <li><a href="#">c/Dojo</a></li>
-        <li><a href="#">Discord</a></li>
-      </ul>
-    </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
 
-    <!-- main start -->
-    <main class="flex container">
-      <!-- posts start -->
-      <section class="posts">
-        <div class="card">
-          <div class="card-body flex">
-            <div class="votes">
-              <img src="./images/arrow-up-short.svg" alt="upvote" class="arrow" onclick="upvote(vote1)" />
-              <p id="vote1">26</p>
-              <img src="./images/arrow-down-short.svg" alt="downvote" class="arrow">
+<body>
+    <div class="nav">
+        <div class="nav-left">
+            <img src="./images/cat.svg" alt="">
+            <h1>CodeIt</h1>
+            <input type="text" name="" id="">
+            <button>Go</button>
+        </div>
+        <div class="nav-right">
+            <button>Get App</button>
+            <button>Log In</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main-top">
+            <div class="main-header">
+                <img src="./images/cat.svg" alt="">
+                <h2>c/Dojo</h2>
+                <button>Join</button>
             </div>
-            <div class="card-content">
-              <h2 class="post-title">Best of Project Week 2022</h2>
-              <img src="./images/placeholder.webp" alt="placeholder" class="placeholder">
-              <div class="card-footer flex justify-start">
-                <img src="./images/chat-dots.svg" alt="chat" class="icon">
-                <p class="text-muted">42 comments</p>
-                <img src="./images/bi-share.svg" alt="share" class="icon">
-                <p class="text-muted">share</p>
-              </div>
+            <div class="main-links">
+                <a href="#">Posts</a>
+                <a href="#">Wiki</a>
+                <a href="#">c/Dojo</a>
+                <a href="#">Discord</a>
             </div>
-          </div>
         </div>
-        <div class="card">
-          <div class="card-body flex">
-            <div class="votes">
-              <img src="./images/arrow-up-short.svg" alt="upvote" class="arrow" onclick="upvote(vote2)" />
-              <p id="vote2">26</p>
-              <img src="./images/arrow-down-short.svg" alt="downvote" class="arrow">
+        <div class="main-body">
+            <div class="main-left">
+                <div class="card">
+                    <div class="counter">
+                        <img src="./images/arrow-up-long.svg" alt="">
+                        <span>29</span>
+                        <img src="./images/arrow-down-long.svg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>Best of Project Week 2023</h3>
+                        <img class="placeholder" src="./images/placeholder.webp" alt="">
+                        <div class="main-icons">
+                            <img src="./images/chat-dots.svg" alt="">
+                            <span>42 comments</span>
+                            <img src="./images/fa-share.svg" alt="">
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="counter">
+                        <img src="./images/arrow-up-long.svg" alt="">
+                        <span>17</span>
+                        <img src="./images/arrow-down-long.svg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>I use my cat as a rubber duck, is that weird</h3>
+                        <img class="placeholder" src="./images/placeholder.webp" alt="">
+                        <div class="main-icons">
+                            <img src="./images/chat-dots.svg" alt="">
+                            <span>16 comments</span>
+                            <img src="./images/fa-share.svg" alt="">
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="card-content">
-              <h2 class="post-title">Best of Project Week 2022</h2>
-              <img src="./images/placeholder.webp" alt="placeholder" class="placeholder">
-              <div class="card-footer flex justify-start">
-                <img src="./images/chat-dots.svg" alt="chat" class="icon">
-                <p class="text-muted">42 comments</p>
-                <img src="./images/bi-share.svg" alt="share" class="icon">
-                <p class="text-muted">share</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- sidebar start -->
-      <section class="sidebar">
-        <div class="card">
-          <h3 class="card-header">About the Dojo</h3>
-          <div class="card-body">
-            <p>Changing lives with code and a dedicated community of debuggers.</p>
-          </div>
-        </div>
-        <div class="card">
-          <h3 class="card-header">Discord</h3>
-          <div class="card-body">
-            <button class="btn btn-white">discord.gg/cdojo</button>
-          </div>
-        </div>
-        <div class="card">
-          <h3 class="card-header">c/Dojo Rules</h3>
-          <div class="card-body">
-            <ol>
-              <li>Follow the 20 Minute Rule</li>
-              <li>Don't Compare Yourself To Others</li>
-              <li>Learn Actively</li>
-              <li>Don't Chase Best Practices (Yet)</li>
-              <li>When You're Behind, Ask For Help</li>
-            </ol>
-          </div>
-        </div>
-      </section>
-    </main>
+            <div class="main-right">
+                <div class="side-box">
+                    <div class="side-header">About the Dojo</div>
+                    <div class="side-bottom">
 
-    <script src="./script.js"></script>
-  </body>
+                        <p>Changing lives with Code and a dedicated community of debuggers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
