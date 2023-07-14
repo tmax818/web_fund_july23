@@ -44,4 +44,14 @@ while(start < end) {
     end -= 2;
 }
 
+|variable|value|
+|---|---|
+|start|0,2,4,6|
+|end|12,10,8,6|
+```
+
+```bash
+start: 0, end: 12
+start: 2, end: 10
+start: 4, end: 8
 ```
