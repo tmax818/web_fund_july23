@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom stuff</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper light-mode">
+
+        <h1 id="main" class="main-title">DOM queries</h1>
+        
+        <h3 id="text">Lorem Ipsem</h3>
+
+        <button onclick="changeToDarkMode()">change to dark mode</button>
+
+
+        
+        <hr>
+
+        <div>
+            
+            <p id="para" onclick="removePara(this)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, sunt?</p>
+            
+            <hr>
+            <button onclick="removePara2()">remove the paragraph</button>
+        </div>
+    </div>
+
+    <!-- connecting JS file -->
+    <script src="script.js"></script>
+</body>
+</html>
