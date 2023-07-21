@@ -24,9 +24,24 @@ function render(theDojo) {
 // TODO - Make this function tell us how many ninjas are hiding 
 //        under the adjacent (all sides and corners) squares.
 //        Use i and j as the indexes to check theDojo.
-function howMany(i, j, element) {
-  console.log({i, j});
-//   alert("TODO - determine how many ninjas are hiding in adjacent squares");
+// function howMany(i, j, element) {
+//   console.log({i, j});
+// //   alert("TODO - determine how many ninjas are hiding in adjacent squares");
+// }
+
+function howMany(i,j, element){
+  var sum = 0;
+  //this will iterate through 3 rows surrounding and including i's row
+  for(var k=i-1; k<i+2; k++){
+    //this would iterate through the 3 columns surrounding j's column position
+      for(var L = j -1 ; L< j+2; L++){
+        //if the iteration points have values to add to the sum, i.e. not undefined values. Because add undefined values to the sum.
+          if (theDojo[k] !== undefined && theDojo[L] !== undefined){
+              sum+= theDojo[k][L]
+          }
+      }
+  }
+  element.innerText = sum - theDojo[i][j];
 }
     
 // BONUS CHALLENGES
