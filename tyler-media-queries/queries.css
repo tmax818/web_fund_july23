@@ -1,0 +1,45 @@
+/* Tablet Viewports 768px */
+@media(min-width: 48rem) {
+  .btn {
+    background-color: #9edcff;
+    color: #252525;
+    margin: 0;
+  }
+  
+  .btn-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  main {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  aside {
+    display: block;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/* Desktop Viewports 1024px */
+@media(min-width: 64rem) {
+  .btn {
+    background-color: goldenrod;
+  }
+
+  .btn-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
