@@ -4,6 +4,7 @@
   return the removed item
   
   No built-in array methods except pop().
+  RIOT WALK
 */
 
 var arr1 = ["a", "b", "c", "d", "e"];
@@ -33,9 +34,28 @@ var arr1Expected = ["a", "c", "d", "e"];
  * @returns {any} The removed item.
  */
 
+// var arr1 = ["a", "b", "c", "d", "e"];
+// var removeIdx1 = 1;
+// var expected1 = "b";
 
 function removeAt(items, idx) {
   // code here
+  // loop through the array
+  // remove the element at the provided index
+  // compare the array index to the idx variable given
+  // if comparison 
+  // return element
+
+  let removed = items[idx];
+
+  for (let i = idx; i < items.length - 1; i++) {
+    items[i] = items[i + 1];
+  }
+
+  // when the loop is done the 2nd to last item is set to the last item
+  // so there is a duplicate that needs to be removed
+  items.pop();
+  return removed;
 }
 
 
