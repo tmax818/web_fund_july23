@@ -23,6 +23,9 @@ UX (User Experience) Design is the process of creating products and services tha
 6. Accessibility
 7. Usability
 
+#### Laws of Design
+
+
 #### UI is the bridge that gets us where we want to go, UX is the feeling we get when we arrive.
 
 ![Differences Between UX and UI](difference-between-ux-and-ui.jpg)
