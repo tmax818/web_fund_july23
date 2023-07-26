@@ -1,5 +1,7 @@
 # Presentation Process
 
+[project slides](https://docs.google.com/presentation/d/1ftFaNsY7eJqVJ-3pzkSrpINHcXllKNMC6uq9SsWUDM8/edit#slide=id.geba780a0c3_0_0)
+
 ## General Guidelines
 - Keep your presentation length down to about three to five minutes
 - I wouldn't be mad if you dressed up a little
