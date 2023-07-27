@@ -27,6 +27,7 @@ const expected2 = "";
  * @returns {string} The given string with the first letter capitalized or an
  *    empty string.
  */
+// TODO First function, capitalize the first character of a string
 function capitalize(string) {}
 
 /* Tests for capitalization function */
@@ -40,4 +41,5 @@ const expectedStrings1 = ["Hello", "World"];
  * @param {Array<string>} strings
  * @returns {Array<string>} The same given array with updated items.
  */
+// TODO Second function, capitalize the first character of each string in an array of strings
 function capitalization(strings) {}
