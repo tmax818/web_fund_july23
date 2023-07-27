@@ -28,10 +28,23 @@ const expected2 = "";
  *    empty string.
  */
 // TODO First function, capitalize the first character of a string
-function capitalize(string) {}
+function capitalize(string) {
+    var newStr = ""
+    newStr += string[0].toUpperCase()
+    // console.log(string[0].toUpperCase())
+    // console.log(string[0])
+    console.log(newStr)
+    for(var i = 1; i < string.length; i++){
+        newStr += string[i]
+    }
+
+    // separate the string by space
+    console.log(newStr)
+    
+}
 
 
-
+capitalize(string1)
 
 
 /* Tests for capitalization function */
