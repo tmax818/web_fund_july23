@@ -30,6 +30,10 @@ const expected2 = "";
 // TODO First function, capitalize the first character of a string
 function capitalize(string) {}
 
+
+
+
+
 /* Tests for capitalization function */
 const strings1 = ["hello", "world"];
 const expectedStrings1 = ["Hello", "World"];
