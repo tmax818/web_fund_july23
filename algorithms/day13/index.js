@@ -54,3 +54,21 @@ console.log(result4, "should be", expected4);
 
 const result5 = nthLast(arr5, idx5);
 console.log(result5, "should be", expected5);
+
+function funct(){
+  var name = "Nyasha"
+  var age = 32
+  console.log(name, age)
+}
+
+funct();
+
+for(var i = 0; i < 100; i++){
+  console.log(i)
+}
+
+if (true){
+  console.log("it's true")
+} else {
+  console.log("it's false")
+}
